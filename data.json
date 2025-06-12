@@ -1,0 +1,22 @@
+[
+    {
+        "name": "Ankara",
+        "plateCode": 6,
+        "info": "Ankara yaklaşık 5 milyon nüfuslu bir büyük şehirdir. Türkiye'nin mevcut başkentidir. Sert ve kuru bir iklimi vardır."
+    },
+    {
+        "name": "İstanbul",
+        "plateCode": 34,
+        "info": "İstanbul, medeniyetimizin başkentidir. Türkiye'nin en kalabalık şehridir. Evliyâlarıyla, coğrafi mevkîsiyle eşsiz bir yerdir."
+    },
+    {
+        "name": "Afyonkarahisar",
+        "plateCode": 3,
+        "info": "Köklü târihi olan güzel bir şehrimizdir."
+    },
+    {
+        "name": "Bursa",
+        "plateCode": 13,
+        "info": "Bursa, medeniyetimize başkentlik yapmış, mümtaz bir beldedir. Coğrafi mevkîsi, kültürel konumu itibâriyle çok kıymetli bir yerdir."
+    }
+]
