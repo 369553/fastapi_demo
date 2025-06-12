@@ -64,6 +64,6 @@
 
 - Uygulamaya yeni bir şehir için bilgi eklemek istediğinizde veyâ mevcut bir şehir için bilgi değiştirmek istediğinizde **POST** ve **PUT** metodlarını **yönetici API anahtarıyla** kullanmanız gerekmektedir. Yönetici anahtarı proje dizinindeki "secret.env" isimli dosyada "adminKey" ismiyle tutulmaktadır. API anahtarıyla yapılan işlemlerde işlem adedi kısıtlaması yoktur.
 
-- ..
+- NOT: Şehir bilgileri ve özellikleri göstermelik bilgilerdir, üç tâne şehir için eklenmiştir; bu şehirler de "data.json" dosyasından alınmıştır; API'yi test etmeden evvel mevcut şehirlerin bilgisine bakınız. Dosya üzerinde değişiklikler yapıp, uygulamayı sıfırdan çalıştırdığınızda veri çekiminde bir sorun olmayacaktır; sadece veri eklerken belirtilen 3 özellik için ekleme yapılır; onu da `CityAtAdding` pydantic modelini değiştirerek ayarlayabilirsiniz.
 
 
