@@ -66,4 +66,14 @@
 
 - NOT: Şehir bilgileri ve özellikleri göstermelik bilgilerdir, üç tâne şehir için eklenmiştir; bu şehirler de "data.json" dosyasından alınmıştır; API'yi test etmeden evvel mevcut şehirlerin bilgisine bakınız. Dosya üzerinde değişiklikler yapıp, uygulamayı sıfırdan çalıştırdığınızda veri çekiminde bir sorun olmayacaktır; sadece veri eklerken belirtilen 3 özellik için ekleme yapılır; onu da `CityAtAdding` pydantic modelini değiştirerek ayarlayabilirsiniz.
 
+### Otomatik Test
+
+- Projede otomatik test için "apiTest.py" dosyası vardır. Şu adımları tâkip ederek otomatik testi çalıştırabilrsiniz
+  
+  - Otomatik test için `pytest` kitâplığını kurun;
+  
+  - Sistemi yayına alın
+  
+  - Proje dizininde komut satırı (uç birim) açın ve şu komutu çalıştırın: `pytest apiTest.py`
+
 
