@@ -52,7 +52,9 @@ def buildSystem(connext):
     for i in data:
         cities.insert_one(i)
     adminKey = os.environ["adminKey"]
+    consumedKey = os.environ["consumedKey"]
     apiKeys.insert_one({"_id": ObjectId(adminKey), "limit":100})
+    apiKeys.insert_one({"_id": ObjectId(consumedKey), "limit": 0})
 
 # Tüm şehirleri veritabanından çek:
 def getCitiesFromDB():
